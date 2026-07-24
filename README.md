@@ -1,4 +1,4 @@
-# AquaGenesis
+### AquaGenesis
 
 Aquagenesis backend API for classifying environmental DNA (eDNA) sequences into taxonomic groups using a trained machine learning model based on SILVA reference data.
 
