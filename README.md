@@ -1,12 +1,14 @@
-### AquaGenesis
+## <h1><p align="center">🫧𓇼𓏲*ੈ✩‧₊˚ 🌊 ***AquaGenesis*** 🫧𓇼𓏲*ੈ✩‧₊˚ 🌊</p></h1>
 
-Aquagenesis backend API for classifying environmental DNA (eDNA) sequences into taxonomic groups using a trained machine learning model based on SILVA reference data.
+## 📖Overview
+
+Aquagenesis is backend API for classifying environmental DNA (eDNA) sequences into taxonomic groups using a trained machine learning model based on SILVA reference(prokaryotic dataset) data.
 
 The backend accepts FASTA (`.fa`, `.fasta`) and gzipped FASTA (`.fa.gz`) files, reads the DNA sequences, predicts their taxonomy, and returns the results in JSON format.
 
 ---
 
-## Project Structure
+## 🗂️Project Structure
 
 ```text
 Aquagenesis/
@@ -22,7 +24,7 @@ Aquagenesis/
 
 ---
 
-## Features
+## ✨Features✨
 
 * Upload FASTA (`.fa`, `.fasta`) files
 * Upload gzipped FASTA (`.fa.gz`) files
@@ -33,12 +35,77 @@ Aquagenesis/
 
 ---
 
+## ⚛ Tech Stacks
+
+### Programming Language:
+
+* Python
+
+### Backend Framework
+
+* FatAPI(Swagger UI)
+
+### Machine Learning
+* Scikit-learn
+* Multinomial Naive Bayes
+* CountVectorizer
+  
+### Bioinformatics
+* Biopython
+* FASTA file parsing
+* eDNA (Environmental DNA) sequence analysis
+* SILVA Taxonomy Database
+* Data Processing
+* Pandas (for CSV handling, if used during training)
+* CSV datasets
+* Model Storage
+* Joblib
+* API Testing
+* Swagger UI (FastAPI Docs)
+* File Formats
+* FASTA (.fa, .fasta)
+* Compressed FASTA (.fa.gz)
+* CSV
+  
+### Python Libraries
+* FastAPI
+* Uvicorn
+* Biopython
+* scikit-learn
+* Joblib
+* python-multipart
+* gzip
+* io
+* csv
+  
+### Version Control
+* Git
+* GitHub
+  
+### Development Environment
+* Visual Studio Code
+* Windows Powershell
+
+  ---
+
+## Sneak Peak
+### Swagger UI
+<img width="965" height="998" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/5795aa3f-4e87-49c3-8883-c4eb9314a39a" />
+
+### Default
+<img width="624" height="679" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/4a6567ec-30fa-46ab-a869-859e23bffdce" />
+
+### After Execution
+<img width="936" height="1018" alt="Screenshot (251)" src="https://github.com/user-attachments/assets/942e3b87-a8a0-4095-94d4-2f14d0781cc4" />
+
+---
+
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Aquagenesis.git
+git clone https://github.com/sreeja7748/Aquagenesis.git
 cd Aquagenesis/backend
 ```
 
