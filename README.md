@@ -187,10 +187,18 @@ Uploads a FASTA or gzipped FASTA file and returns predicted taxonomy for each DN
 
 ---
 
-## 🚀 How It Works
+## 💡 How It Works
 ### Step-1: Running the backend API
 ### Step-2: Uploading .fasta, .fa, gzipped fasta file contaning prokaryotic DNA sequences
 ### Step-3: Voila! Get taxonomic Classifications
+
+---
+
+## 🎯 Use Cases
+* Researchers
+* Scientists
+* Biotechnologists
+* Students
 
 ## Notes
 
