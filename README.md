@@ -1,6 +1,6 @@
 ## <h1><p align="center">🫧𓇼𓏲*ੈ✩‧₊˚ 🌊 ***AquaGenesis*** 🫧𓇼𓏲*ੈ✩‧₊˚ 🌊</p></h1>
 
-## 📖Overview
+## 📖 Overview
 
 Aquagenesis is backend API for classifying environmental DNA (eDNA) sequences into taxonomic groups using a trained machine learning model based on SILVA reference(prokaryotic dataset) data.
 
@@ -8,7 +8,7 @@ The backend accepts FASTA (`.fa`, `.fasta`) and gzipped FASTA (`.fa.gz`) files, 
 
 ---
 
-## 🗂️Project Structure
+## 🗂️ Project Structure
 
 ```text
 Aquagenesis/
@@ -24,7 +24,7 @@ Aquagenesis/
 
 ---
 
-## ✨Features✨
+## ✨ Features ✨
 
 * Upload FASTA (`.fa`, `.fasta`) files
 * Upload gzipped FASTA (`.fa.gz`) files
@@ -88,7 +88,7 @@ Aquagenesis/
 
   ---
 
-## Sneak Peak
+## 👀 Sneak Peak
 ### Swagger UI
 <img width="965" height="998" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/5795aa3f-4e87-49c3-8883-c4eb9314a39a" />
 
@@ -100,7 +100,7 @@ Aquagenesis/
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### 1. Clone the repository
 
@@ -186,6 +186,11 @@ Uploads a FASTA or gzipped FASTA file and returns predicted taxonomy for each DN
 * Scikit-learn
 
 ---
+
+## 🚀 How It Works
+### Step-1: Running the backend API
+### Step-2: Uploading .fasta, .fa, gzipped fasta file contaning prokaryotic DNA sequences
+### Step-3: Voila! Get taxonomic Classifications
 
 ## Notes
 
