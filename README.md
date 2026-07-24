@@ -200,13 +200,21 @@ Uploads a FASTA or gzipped FASTA file and returns predicted taxonomy for each DN
 * Biotechnologists
 * Students
 
-## Notes
+---
+
+## 📈 Future Enchancements
+
+* Frontend
+* Biodiversity Analysis based on species
+* Eukaryotik species detection
+
+##📝 Notes
 
 * The trained model file (`silva_model.joblib`) must be present in the `backend` folder before running the API.
 * This repository contains only the backend implementation. The frontend can communicate with this API through the `/predict` endpoint.
 
 ---
 
-## License
+## 🏛️ License
 
 This project is for educational and research purposes.
